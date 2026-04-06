@@ -1,0 +1,118 @@
+/* fundo da página */
+.login-container{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:linear-gradient(
+        135deg,
+        #0a3d62,
+        #3c91e6
+    );
+
+    font-family:Arial;
+}
+
+/* caixa do login */
+.login-box{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:10px;
+
+    width:300px;
+
+    box-shadow:0px 5px 15px rgba(0,0,0,0.2);
+
+    text-align:center;
+}
+
+/* titulo */
+.login-header h2{
+
+    color:#0a3d62;
+
+    margin-bottom:20px;
+}
+
+/* grupo input */
+.input-group{
+
+    display:flex;
+
+    flex-direction:column;
+
+    text-align:left;
+
+    margin-bottom:15px;
+}
+
+/* labels */
+.input-group label{
+
+    font-size:14px;
+
+    color:#1e3799;
+
+    margin-bottom:5px;
+}
+
+/* inputs */
+.input-group input{
+
+    padding:8px;
+
+    border-radius:5px;
+
+    border:1px solid #74b9ff;
+
+}
+
+/* botão */
+.login-button{
+
+    width:100%;
+
+    padding:10px;
+
+    border:none;
+
+    border-radius:5px;
+
+    background:#0984e3;
+
+    color:white;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    margin-top:10px;
+
+}
+
+/* efeito hover */
+.login-button:hover{
+
+    background:#0652DD;
+
+}
+
+/* link voltar */
+
+.voltar{
+
+    display:block;
+
+    margin-top:15px;
+
+    text-decoration:none;
+
+    color:#0984e3;
+
+    font-size:14px;
+
+}
