@@ -1,0 +1,68 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container geral */
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #e3f2fd, #ffffff);
+  min-height: 100vh;
+}
+
+/* Título */
+h3 {
+  color: #0d47a1;
+  margin-bottom: 10px;
+}
+
+/* Texto */
+p {
+  color: #1565c0;
+  margin-bottom: 20px;
+}
+
+/* Área de gráficos */
+.graficos {
+  height: 150px;
+  background-color: #bbdefb;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Tabela */
+.tabela-leituras table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Cabeçalho */
+.tabela-leituras th {
+  background-color: #0d47a1;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Linhas */
+.tabela-leituras td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #e3f2fd;
+}
+
+/* Efeito hover */
+.tabela-leituras tr:hover {
+  background-color: #e3f2fd;
+}
+
+/* Linhas alternadas */
+.tabela-leituras tr:nth-child(even) {
+  background-color: #f5faff;
+}
